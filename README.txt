@@ -9,8 +9,6 @@ CURRENT WORK
     The source code for ESXP can be found here: https://github.com/k-zen/ObjectiveCToolbox
 
 FILES
-    ObjectiveCToolbox.xcodeproj/*
-        XCode 6 project files.
     ObjectiveCToolbox/*
         Source code.
 

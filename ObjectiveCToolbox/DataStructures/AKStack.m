@@ -108,7 +108,7 @@
 
 - (BOOL)isEmpty { return [self.stackArray count] == 0; }
 
-- (BOOL)isFull { return ([self sizeOfStack] == self.maxStackSize) ? YES : NO; }
+- (BOOL)isFull { return ([self size] == self.maxStackSize) ? YES : NO; }
 
 - (void)clear { [self.stackArray removeAllObjects]; }
 

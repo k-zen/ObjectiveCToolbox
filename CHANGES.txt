@@ -1,3 +1,7 @@
+=================== Release 0.1.2 2014-12-29 =====================
+Bugs
+    * Corrected minor bug with the "AKStack" implementation. The filename was incorrect.
+
 =================== Release 0.1.1 2014-12-29 =====================
 Bugs
     * Corrected a bug in the pop() and peek() methods, they where returning a object of type "AKStack" instead of a object of generic type "id".

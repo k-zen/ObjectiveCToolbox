@@ -75,7 +75,7 @@
     return self;
 }
 
-- (AKStack *)pop
+- (id)pop
 {
     id object = [self peek];
     [self.stackArray removeLastObject];
@@ -96,7 +96,7 @@
         NSAssert(object != nil, @"You can't push a NIL object into the stack.");
 }
 
-- (AKStack *)peek
+- (id)peek
 {
     if ([self.stackArray count] > 0)
         return [self.stackArray lastObject];

@@ -50,15 +50,6 @@
 #import "AKDataStructures.h"
 
 @implementation AKStack
-- (id)init
-{
-    self = [super init];
-    if (self)
-        self.stackArray = [@[] mutableCopy];
-    
-    return self;
-}
-
 - (AKStack *)initWithSize:(NSUInteger)size
 {
     self = [super init];

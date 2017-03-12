@@ -1,3 +1,7 @@
+=================== Release 0.1.3 2017-03-12 =====================
+Changes
+    * Removed support to initialize a stack with default size. Size must be explicit now. (12/03/2017)
+
 =================== Release 0.1.2 2014-12-29 =====================
 Bugs
     * Corrected minor bug with the "AKStack" implementation. The filename was incorrect.
